@@ -58,4 +58,6 @@ const stackConfig: webpack.Configuration = {
   externals: [nodeExternals()]
 };
 
-export default [stackConfig];
+export default [
+  stackConfig
+];
